@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in</title>
+    <meta name="description" content="Amazon.in Clone created with HTML, CSS, and JS">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Area -->
+    <header>
+        <div class="navbar">
+            <div class="nav-logo border">
+                <div class="logo">
+                    <!-- Placeholder text for logo -->
+                    <h2>amazon<span class="dot">.in</span></h2>
+                </div>
+            </div>
+
+            <div class="nav-address border">
+                <p class="add-first">Delivering to Mumbai 400001</p>
+                <div class="add-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="add-sec">Update location</p>
+                </div>
+            </div>
+
+            <div class="nav-search">
+                <select class="search-select">
+                    <option>All</option>
+                </select>
+                <input placeholder="Search Amazon.in" class="search-input" id="search-input">
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+
+            <div class="nav-language border">
+                <div class="flag">🇮🇳</div>
+                <span>EN</span>
+                <i class="fa-solid fa-caret-down" style="font-size: 10px; margin-left: 2px;"></i>
+            </div>
+
+            <div class="nav-signin border">
+                <p><span>Hello, sign in</span></p>
+                <p class="nav-second">Account & Lists <i class="fa-solid fa-caret-down" style="font-size: 10px;"></i></p>
+            </div>
+
+            <div class="nav-return border">
+                <p><span>Returns</span></p>
+                <p class="nav-second">& Orders</p>
+            </div>
+
+            <div class="nav-cart border">
+                <i class="fa-solid fa-cart-shopping"></i>
+                Cart
+            </div>
+        </div>
+
+        <div class="panel">
+            <div class="panel-all border">
+                <i class="fa-solid fa-bars"></i>
+                All
+            </div>
+            <div class="panel-ops">
+                <p class="border">Amazon miniTV</p>
+                <p class="border">Sell</p>
+                <p class="border">Best Sellers</p>
+                <p class="border">Mobiles</p>
+                <p class="border">Today's Deals</p>
+                <p class="border">Customer Service</p>
+                <p class="border">Electronics</p>
+                <p class="border">New Releases</p>
+                <p class="border">Prime <i class="fa-solid fa-caret-down" style="font-size: 10px;"></i></p>
+                <p class="border">Gift Ideas</p>
+            </div>
+            <div class="panel-deals border">
+                New Launches from Mobiles, Electronics & more | Shop now
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content Area -->
+    <main>
+        <!-- Hero Section -->
+        <div class="hero-section">
+            <div class="slider-container">
+                <img src="assets/hero1.jpg" alt="Hero Image 1" class="hero-img active">
+                <img src="assets/hero2.jpg" alt="Hero Image 2" class="hero-img">
+                <img src="assets/hero3.jpg" alt="Hero Image 3" class="hero-img">
+            </div>
+            <div class="slider-controls">
+                <button id="prev-slide"><i class="fa-solid fa-chevron-left"></i></button>
+                <button id="next-slide"><i class="fa-solid fa-chevron-right"></i></button>
+            </div>
+        </div>
+
+        <div class="hero-msg">
+            <p>You are on amazon.in. You can also shop on Amazon India for millions of products with fast local delivery. <a href="#">Click here to go to amazon.in</a></p>
+        </div>
+
+        <!-- Product Grid -->
+        <div class="shop-section">
+            <div class="box">
+                <div class="box-content">
+                    <h2>Up to 70% off | Clearance store</h2>
+                    <div class="box-img" style="background-image: url('assets/box1.jpg');"></div>
+                    <a href="#">See more</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-content">
+                    <h2>Revamp your home in style</h2>
+                    <div class="box-img-grid">
+                        <div class="grid-item"><img src="assets/box2_1.jpg" alt=""><p>Bedsheets</p></div>
+                        <div class="grid-item"><img src="assets/box2_2.jpg" alt=""><p>Home decor</p></div>
+                        <div class="grid-item"><img src="assets/box2_3.jpg" alt=""><p>Home storage</p></div>
+                        <div class="grid-item"><img src="assets/box2_4.jpg" alt=""><p>Lighting</p></div>
+                    </div>
+                    <a href="#">Explore all</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-content">
+                    <h2>Up to 60% off | Styles for men</h2>
+                    <div class="box-img-grid">
+                        <div class="grid-item"><img src="assets/box3_1.jpg" alt=""><p>Clothing</p></div>
+                        <div class="grid-item"><img src="assets/box3_2.jpg" alt=""><p>Footwear</p></div>
+                        <div class="grid-item"><img src="assets/box3_3.jpg" alt=""><p>Watches</p></div>
+                        <div class="grid-item"><img src="assets/box3_4.jpg" alt=""><p>Bags</p></div>
+                    </div>
+                    <a href="#">End of season sale</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-content">
+                    <h2>Appliances for your home | Up to 55% off</h2>
+                    <div class="box-img-grid">
+                        <div class="grid-item"><img src="assets/box4_1.jpg" alt=""><p>Air conditioners</p></div>
+                        <div class="grid-item"><img src="assets/box4_2.jpg" alt=""><p>Refrigerators</p></div>
+                        <div class="grid-item"><img src="assets/box4_3.jpg" alt=""><p>Microwaves</p></div>
+                        <div class="grid-item"><img src="assets/box4_4.jpg" alt=""><p>Washing machines</p></div>
+                    </div>
+                    <a href="#">See more</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-content">
+                    <h2>Starting ₹99 | All your home improvement needs</h2>
+                    <div class="box-img-grid">
+                        <div class="grid-item"><img src="assets/box5_1.jpg" alt=""><p>Spin mops</p></div>
+                        <div class="grid-item"><img src="assets/box5_2.jpg" alt=""><p>Tools</p></div>
+                        <div class="grid-item"><img src="assets/box5_3.jpg" alt=""><p>Bathroom accessories</p></div>
+                        <div class="grid-item"><img src="assets/box5_4.jpg" alt=""><p>Extension boards</p></div>
+                    </div>
+                    <a href="#">Explore all</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-content">
+                    <h2>Up to 75% off | Electronics & accessories</h2>
+                    <div class="box-img" style="background-image: url('assets/box6.jpg');"></div>
+                    <a href="#">See more</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-content">
+                    <h2>Smartphones that suit your budget</h2>
+                    <div class="box-img" style="background-image: url('assets/box7.jpg');"></div>
+                    <a href="#">Explore all</a>
+                </div>
+            </div>
+             <div class="box">
+                <div class="box-content">
+                    <h2>Starting ₹149 | Headphones</h2>
+                    <div class="box-img" style="background-image: url('assets/box8.jpg');"></div>
+                    <a href="#">See more</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer Area -->
+    <footer>
+        <div class="foot-panel1">
+            Back to top
+        </div>
+
+        <div class="foot-panel2">
+            <ul>
+                <p>Get to Know Us</p>
+                <a href="#">About Us</a>
+                <a href="#">Careers</a>
+                <a href="#">Press Releases</a>
+                <a href="#">Amazon Science</a>
+            </ul>
+            <ul>
+                <p>Connect with Us</p>
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">Instagram</a>
+            </ul>
+            <ul>
+                <p>Make Money with Us</p>
+                <a href="#">Sell on Amazon</a>
+                <a href="#">Sell under Amazon Accelerator</a>
+                <a href="#">Protect and Build Your Brand</a>
+                <a href="#">Amazon Global Selling</a>
+                <a href="#">Become an Affiliate</a>
+                <a href="#">Fulfilment by Amazon</a>
+                <a href="#">Advertise Your Products</a>
+                <a href="#">Amazon Pay on Merchants</a>
+            </ul>
+            <ul>
+                <p>Let Us Help You</p>
+                <a href="#">COVID-19 and Amazon</a>
+                <a href="#">Your Account</a>
+                <a href="#">Returns Centre</a>
+                <a href="#">100% Purchase Protection</a>
+                <a href="#">Amazon App Download</a>
+                <a href="#">Help</a>
+            </ul>
+        </div>
+
+        <div class="foot-panel3">
+            <div class="logo">
+                 <h2>amazon<span class="dot">.in</span></h2>
+            </div>
+            <div class="footer-settings">
+                <div class="setting-box border">
+                    <i class="fa-solid fa-globe"></i> English
+                </div>
+                <div class="setting-box border">
+                    🇮🇳 India
+                </div>
+            </div>
+        </div>
+
+        <div class="foot-panel4">
+            <div class="pages">
+                <a href="#">Conditions of Use & Sale</a>
+                <a href="#">Privacy Notice</a>
+                <a href="#">Interest-Based Ads</a>
+            </div>
+            <div class="copyright">
+                © 1996-2026, Amazon.com, Inc. or its affiliates
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
